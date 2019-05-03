@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{410BFA75-5587-4BBB-8457-F039D6F9C1D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsApplication</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\WindowsBanking\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Batch.cs" />
+    <Compile Include="ConstructorData.cs" />
+    <Compile Include="frmBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBatch.Designer.cs">
+      <DependentUpon>frmBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGrading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGrading.Designer.cs">
+      <DependentUpon>frmGrading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistory.Designer.cs">
+      <DependentUpon>frmHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDI.Designer.cs">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudent.Designer.cs">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\DataSources\AssemblyInfo.cs" />
+    <Compile Include="Service References\BITCollegeService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBatch.resx">
+      <DependentUpon>frmBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGrading.resx">
+      <DependentUpon>frmGrading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistory.resx">
+      <DependentUpon>frmHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDI.resx">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudent.resx">
+      <DependentUpon>frmStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\DataSources\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\DataSources\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.AuditCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.BITCollege_KSContext.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.Course.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.ExternalLogin.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.GPAState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.GradedCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.HonoursState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.LocalPasswordModel.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.LoginModel.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.MasteryCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.NextAuditCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.NextGradedCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.NextMasteryCourse.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.NextRegistrationNumber.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.NextStudentNumber.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.ProbationState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.Program.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.RegisterExternalLoginModel.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.RegisterModel.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.Registration.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.RegularState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.StoredProcedures.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.Student.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.StudentCard.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.SuspendedState.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.UserProfile.datasource" />
+    <None Include="Properties\DataSources\BITCollege_KS.Models.UsersContext.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\BITCollegeService\CollegeRegistration.wsdl" />
+    <None Include="Service References\BITCollegeService\CollegeRegistration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BITCollegeService\CollegeRegistration1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\CollegeRegistration.wsdl" />
+    <None Include="Service References\ServiceReference1\CollegeRegistration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\CollegeRegistration1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BITCollege_KS\BITCollege_KS.csproj">
+      <Project>{A976F360-B9F0-4DAE-B721-08B913B74903}</Project>
+      <Name>BITCollege_KS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MaskedLabel\MaskedLabel.csproj">
+      <Project>{049F1B57-22DE-42E2-A648-B64B82BF6DF5}</Project>
+      <Name>MaskedLabel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{1DFB919A-6DD3-4F37-A1C4-5DA42400C74D}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BITCollegeService\" />
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BITCollegeService\CollegeRegistration.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BITCollegeService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BITCollegeService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BITCollegeService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\CollegeRegistration.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

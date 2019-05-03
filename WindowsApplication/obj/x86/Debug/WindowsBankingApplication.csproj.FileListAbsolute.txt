@@ -1,0 +1,18 @@
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.frmBatch.resources
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.frmClients.resources
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.frmHistory.resources
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.frmMDI.resources
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.frmTransaction.resources
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\bin\Debug\WindowsBankingApplication.exe
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\bin\Debug\WindowsBankingApplication.pdb
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.exe
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.pdb
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\bin\Debug\WindowsBankingApplication.exe.config
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Programming III\Assignments\Assignment 3 Files\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BITCollege\WindowsBanking\WindowsBankingApplication\bin\Debug\WindowsBankingApplication.exe.config
+C:\Users\Administrator\Desktop\BITCollege\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.exe
+C:\Users\Administrator\Desktop\BITCollege\WindowsBanking\WindowsBankingApplication\obj\x86\Debug\WindowsBankingApplication.pdb
